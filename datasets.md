@@ -16,8 +16,7 @@ One possible way to go is transfom those sounds into images using `librosa` libr
 
 #### Image
 It can be anything: planes, machineray, animals, cities, planets/stars, pokemons, Marvel characters, video games, fruits, road signs.
-- 
-Challenges in Representation Learning: Facial Expression Recognition Challenge - [link](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/)
+- Challenges in Representation Learning: Facial Expression Recognition Challenge - [link](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/)
 - The Karolinska Directed Emotional Faces (KDEF) - [EmotionLab](http://www.emotionlab.se/kdef/) [Download Page](http://kdef.se/download-2/index.html) [Direct Links](http://kdef.se/download-2/7Yri1UsotH.html)
 - Fingerprint Verification Challenge - http://bias.csr.unibo.it/fvc2000/
 - Birds classification - https://www.kaggle.com/c/birds-classification
