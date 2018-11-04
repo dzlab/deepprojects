@@ -32,6 +32,8 @@ It can be anything: planes, machineray, animals, cities, planets/stars, pokemons
 - Plants Dataset - https://www.imageclef.org/2013/plant
 - Pokemon images dataset - https://www.kaggle.com/kvpratama/pokemon-images-dataset
 - Pokemon Database - https://pokemondb.net/pokedex/all
+- Composers classification with ResNet on spectrogram images - [link](https://medium.com/@zachcaceres/deep-learning-can-we-use-computer-vision-to-predict-the-composer-of-classical-music-464dd5516996)
+- Text to image - [link](https://t2i.cvalenzuelab.com/)
 
 #### Whales
 - Using deep learning to listen for whales - [link](http://danielnouri.org/notes/2014/01/10/using-deep-learning-to-listen-for-whales/)

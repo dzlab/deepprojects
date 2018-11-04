@@ -1,0 +1,1 @@
+- PocketFlow: An Automatic Model Compression (AutoMC) framework for developing smaller and faster AI applications. [code](https://github.com/Tencent/PocketFlow) [doc](https://pocketflow.github.io/)
