@@ -24,12 +24,14 @@ It can be anything: planes, machineray, animals, cities, planets/stars, pokemons
 ##### X-Ray
 - Chest X-Ray Images (Pneumonia) - [link](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) [paper](https://data.mendeley.com/datasets/rscbjbr9sj/2)
 
-##### Others
-- Fingerprint Verification Challenge - http://bias.csr.unibo.it/fvc2000/
-- Birds classification - https://www.kaggle.com/c/birds-classification
+##### Nature
+- Birds classification - [kaggle](https://www.kaggle.com/c/birds-classification) [Macaulay Library](https://search.macaulaylibrary.org/catalog) [Cornell University Lab of Ornithology](https://www.allaboutbirds.org/guide/California_Scrub-Jay/overview)
 - Flowers classification - http://www.robots.ox.ac.uk/~vgg/data/flowers/
 - 10 Monkey species - https://www.kaggle.com/slothkong/10-monkey-species
 - Plants Dataset - https://www.imageclef.org/2013/plant
+
+##### Others
+- Fingerprint Verification Challenge - http://bias.csr.unibo.it/fvc2000/
 - Pokemon images dataset - https://www.kaggle.com/kvpratama/pokemon-images-dataset
 - Pokemon Database - https://pokemondb.net/pokedex/all
 - Composers classification with ResNet on spectrogram images - [link](https://medium.com/@zachcaceres/deep-learning-can-we-use-computer-vision-to-predict-the-composer-of-classical-music-464dd5516996)
