@@ -7,6 +7,9 @@
 ### Segmentation
 - Full pipeline demo: poly -> pixels -> ML -> poly - [link](https://www.kaggle.com/lopuhin/full-pipeline-demo-poly-pixels-ml-poly)
 
+### Face Detection
+- Using Dlib [python](https://engmrk.com/face-detection-application/) [javascript](https://medium.com/@muehler.v/node-js-face-recognition-js-simple-and-robust-face-recognition-using-deep-learning-ea5ba8e852)
+
 ### Others
 - Annimation [link](https://nbviewer.jupyter.org/gist/joshfp/85d96f07aaa5f4d2c9eb47956ccdcc88/lesson2-sgd-in-action.ipynb)
 
