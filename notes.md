@@ -32,6 +32,7 @@ Pass a list of modules to the ctor to hook whatever layers you like.
 
 #### Timeseries
 Several approaches can be tested, and the one that works better is one where time series are mapped to an image by means of a polar coordinate transformation called the Gramian Angular Field (GAF). This creates a rich graphical representation of a univariate time series. If you are interested you can read this [paper](https://aaai.org/ocs/index.php/WS/AAAIW15/paper/viewFile/10179/10251) (Encoding Time Series as Images for Visual Inspection and Classification Using Tiled Convolutional Neural Networks). Based on this the univariate time series on the left is transformed into the image on the right. [notebook](https://gist.github.com/oguiza/6b08fd42921e6b0de14e9ee2e8e0bfa7)
+- pyts for timeseries transformation and classification - [documentation](https://johannfaouzi.github.io/pyts/index.html)
 
 #### Resources
 - Deep Learning Resources - [link](https://sgfin.github.io/learning-resources/)

@@ -29,8 +29,12 @@ It can be anything: planes, machineray, animals, cities, planets/stars, pokemons
 - Flowers classification - http://www.robots.ox.ac.uk/~vgg/data/flowers/
 - 10 Monkey species - https://www.kaggle.com/slothkong/10-monkey-species
 - Plants Dataset - https://www.imageclef.org/2013/plant
+- Timeseries Classification dataset - [link](http://www.timeseriesclassification.com/dataset.php)
 
 ##### Others
+- Visual Object Classes Challenge 2012 (VOC2012) - [link](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/)
+- Cars Dataset - [link](https://ai.stanford.edu/~jkrause/cars/car_dataset.html)
+- Image data set for alphabets in the American Sign Language - [code](https://github.com/keyurparalkar/ASL-live-predictor) [link](https://www.kaggle.com/grassknoted/asl-alphabet)
 - Fingerprint Verification Challenge - http://bias.csr.unibo.it/fvc2000/
 - Pokemon images dataset - https://www.kaggle.com/kvpratama/pokemon-images-dataset
 - Pokemon Database - https://pokemondb.net/pokedex/all
@@ -46,4 +50,5 @@ It can be anything: planes, machineray, animals, cities, planets/stars, pokemons
 - NOAA Northest Fisheries Science Center - [link](https://www.nefsc.noaa.gov/psb/acoustics/sounds.html)
 
 #### Divers
+- Figure Eight: Data for Everyone - [link](https://www.figure-eight.com/data-for-everyone/)
 - CommaAI - [link](https://github.com/commaai/research)
