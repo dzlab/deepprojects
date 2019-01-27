@@ -1,9 +1,9 @@
 ## Visualization
-```
+```python
 import matplotlib.pyplot as plt
 ```
 ### Show a bunch of images
-```
+```python
 def plots_from_files(imspaths, figsize=(10,5), rows=1, titles=None, maintitle=None):
     """Plot the images in a grid"""
     f = plt.figure(figsize=figsize)
