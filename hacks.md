@@ -2,7 +2,7 @@
 ```python
 import matplotlib.pyplot as plt
 ```
-### Show a bunch of images
+#### Show a bunch of images
 ```python
 def ceildiv(a, b):
     return -(-a // b)
@@ -19,8 +19,21 @@ def plots_from_files(imspaths, figsize=(10,5), rows=1, titles=None, maintitle=No
         plt.imshow(img)
 ```
 
+#### Rich display for NumPy arrays in the Jupyter Notebook
+```bash
+!pip install numpy_html
+```
+```
+import numpy_html
+import numpy as np
+
+np.set_printoptions(threshold=5, edgeitems=2)
+
+np.arange(49).reshape(7, 7)
+```
+
 ## NLP
-### FastText's word2vec
+#### FastText's word2vec
 Download word2vec for the target language (e.g. [english](https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.en.zip
 ))
 ```python
@@ -37,7 +50,7 @@ en_vecd = pickle.load(open(PATH/'wiki.en.pkl','rb'))
 ```
 
 ## Bash
-### Install python library from a github repo
+#### Install python library from a github repo
 ```bash
 !pip install git+https://github.com/facebookresearch/fastText.git
 ```
