@@ -1,3 +1,29 @@
+## python
+#### Do stuff in parallel
+```python
+import tqdm
+from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
+
+def parallel(func, arr, max_workers=None):
+    "Call `func` on every element of `arr` in parallel using `max_workers`."
+    if max_workers<2:
+        _ = [func(o,i) for i,o in enumerate(arr)]
+    else:
+        with ProcessPoolExecutor(max_workers=max_workers) as ex:
+            futures = [ex.submit(func,o,i) for i,o in enumerate(arr)]
+            for f in tqdm(concurrent.futures.as_completed(futures), total=len(arr)): pass
+```
+#### Download urls into a folder
+```python
+import urllib
+import tqdm
+
+def download(path, urls):
+    for url in tqdm(urls):
+        fname = url[url.rfind('/')+1:]
+        urllib.request.urlretrieve(url, path/fname)
+```
+
 ## Visualization
 ```python
 import matplotlib.pyplot as plt
@@ -23,7 +49,7 @@ def plots_from_files(imspaths, figsize=(10,5), rows=1, titles=None, maintitle=No
 ```bash
 !pip install numpy_html
 ```
-```
+```python
 import numpy_html
 import numpy as np
 
