@@ -1,4 +1,33 @@
 ## python
+#### Debugging
+You can use python debugger `pdb` to step through code.
+```python
+import pdb
+pdb.set_trace()
+```
+- `pdb.set_trace()` to set a breakpoint
+- `%debug` magic to trace an error (type this after an exception had occured)
+
+Debugger commands you need to know:
+| Command        | Short version           | Comment  |
+| ------------- |:-------------:| -----:|
+| `help` | `h`| for help |
+| `step` | `s`| to step inside the current instruction. |
+| `next` | `n`| simply type enter to run next instruction. |
+| `continue`| `c`| to continue until next breakpoint. |
+| `up`   | `u`| to change the context of the debugger and see what the previous call on stack, i.e. what called the current instruction.|
+| `down` | `d`| (after a `u`) to go down agin and return to the previous debugger context.|
+| `print`| `p`| to print a variable, e.g. `p my_variable`.|
+| `list` | `l`| for listing the code context, i.e. lines before and after current instruction.|
+
+More debugging tips can be found [here](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger).
+
+#### Free Memory
+```python
+import gc
+gc.collect()
+```
+
 #### Do stuff in parallel
 ```python
 import tqdm
@@ -13,10 +42,19 @@ def parallel(func, arr, max_workers=None):
             futures = [ex.submit(func,o,i) for i,o in enumerate(arr)]
             for f in tqdm(concurrent.futures.as_completed(futures), total=len(arr)): pass
 ```
+Or using [joblib](https://joblib.readthedocs.io)
+```python
+from joblib import Parallel, delayed
+
+def parallelize(func, iterator, n_jobs):
+    Parallel(n_jobs=n_jobs)(delayed(func)(*item) for item in iterator)
+
+parallelize(count_freqs, tasks, n_jobs)
+```
 #### Download urls into a folder
 ```python
 import urllib
-import tqdm
+from tqdm import tqdm
 
 def download(path, urls):
     for url in tqdm(urls):
