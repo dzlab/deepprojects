@@ -9,6 +9,7 @@ pdb.set_trace()
 - `%debug` magic to trace an error (type this after an exception had occured)
 
 Debugger commands you need to know:
+
 | Command        | Short version           | Comment  |
 | ------------- |:-------------:| -----:|
 | `help` | `h`| for help |
