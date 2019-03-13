@@ -63,7 +63,7 @@ def download(path, urls):
         urllib.request.urlretrieve(url, path/fname)
 ```
 
-## Visualization
+## Visualization (IPython and Jupyter)
 ```python
 import matplotlib.pyplot as plt
 ```
@@ -142,6 +142,18 @@ import numpy as np
 np.set_printoptions(threshold=5, edgeitems=2)
 
 np.arange(49).reshape(7, 7)
+```
+
+#### wildcard completions of attribute names, marked by using a ? at the end:
+```python
+> import altair as alt
+
+> alt.*Transform?
+alt.AggregateTransform
+alt.BinTransform
+alt.CalculateTransform
+alt.FilterTransform
+...
 ```
 
 ## NLP
