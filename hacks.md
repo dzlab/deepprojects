@@ -62,6 +62,10 @@ def download(path, urls):
         fname = url[url.rfind('/')+1:]
         urllib.request.urlretrieve(url, path/fname)
 ```
+#### Check if an object has a specific attribute
+```python
+hasattr(obj, 'attribute_or_function_name')
+```
 
 ## Visualization (IPython and Jupyter)
 ```python
