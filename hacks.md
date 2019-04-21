@@ -67,6 +67,24 @@ def download(path, urls):
 hasattr(obj, 'attribute_or_function_name')
 ```
 
+#### __dunder__ thingies
+To add specific behaviors to an object - [documentation](https://docs.python.org/3/reference/datamodel.html)
+```python
+def __getitem__(self, ...) # to get an item by index
+def __getattr__(self, ...) # to get value of an attribute of this object
+def __setattr__(self, ...) # to set value of an attribute of this object
+def __del__(self, ...)     # to do something when the object is deleted (i.e. del(o))
+def __init__(self, ...)    # to initialize the object
+def __new__(self, ...)     # to do something when a new object instance is called
+def __enter__(self, ...)   # to do something when the context of the object is entered (i.e. with o: )
+def __exit__(self, ...)    # to do something when the context of the object is existed
+def __len__(self, ...)     # to get len of the object (e.g. if it contains a collection)
+def __add__(self, ...)     # to add support for + operation
+def __call__(self, ...)    # to be able to call the object
+def __repr__(self, ...)    # to modify the string representation
+def __str__(self, ...)     # to add support for formatted print (i.e. str(o))
+```
+
 ## Visualization (IPython and Jupyter)
 ```python
 import matplotlib.pyplot as plt
