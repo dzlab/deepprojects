@@ -89,6 +89,15 @@ def __str__(self, ...)     # to add support for formatted print (i.e. str(o))
 ```python
 import matplotlib.pyplot as plt
 ```
+
+#### Progress bar
+```python
+import tqdm
+import tqdm.auto
+
+tqdm = tqdm.auto.tqdm
+```
+
 #### Show a bunch of images
 ```python
 def ceildiv(a, b):
