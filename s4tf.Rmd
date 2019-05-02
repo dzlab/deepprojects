@@ -1,0 +1,7 @@
+---
+title: "Swift for Tensorflow Cheat Sheet"
+output:
+  html_document:
+    toc: true
+    theme: united
+---
